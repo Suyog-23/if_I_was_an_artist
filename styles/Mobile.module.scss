@@ -1,3 +1,13 @@
+  @font-face {
+    font-family: "CircularStd-Light";
+    src: url("../fonts/Circular/CircularStd-Light.otf");
+  }
+
+  @font-face {
+    font-family: "CircularStd-Med";
+    src: url("../fonts/Circular/CircularStd-Medium.otf");
+  }
+  
   .iphone_x {
     position: relative;
     margin-top: 5%;
@@ -106,21 +116,64 @@
       padding-top: 1000px;
     }
 
-    .topsection{
-      background-image: url('https://i.scdn.co/image/ab6761610000e5ebcdce7620dc940db079bf4952');
-      height: 275px;
-      width: 100%;
-      background-size: cover;
-      margin-top: 0;
+    .bgopacity{
+      position: relative;
     }
 
-    .artistname{
+    .bgopacity .topsection{
+      position: absolute;
+      height: 275px;
+      width: 100%;
+      margin-top: 0;
+      background-image: url('https://i.scdn.co/image/ab6761610000e5ebcdce7620dc940db079bf4952');
+      background-size: cover;
+      opacity: 0.80;
+      z-index: 0;
+    }
+
+    .bgopacity .artistname{
+      position: relative;
       margin: 0 !important;
       padding-top: 60%;
       padding-left: 10px;
       font-size: 50px;
       font-weight: 900;
       letter-spacing: 0.2px !important;
+      // z-index: 1;
+      // text-shadow: 1px 1px 1px #000;
+    }
+
+    .infosection{
+      padding-left: 10px;
+      padding-top: 2px;
+    }
+
+    .numberoflisteners{
+      font-family: "CircularStd-Light";
+      font-size: 12px;
+      color: gray;
+      // font-weight: lighter !important;
+    }
+
+    .utilityelements{
+      display: inline-block;
+      vertical-align:middle;
+
+    }
+
+    .morevert{
+      display: inline-block;
+      padding-left: 20px;
+      vertical-align:middle;
+    }
+
+    .followbutton{
+      background-color:hsl(0, 11%, 9%);
+      height: 30px;
+      width: 80px;
+      border: 1px solid #fff;
+      border-radius: 5px;
+      font-size: 13px;
     }
     
 

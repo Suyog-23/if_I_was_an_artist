@@ -1,4 +1,5 @@
 import styles from '../../styles/Mobile.module.scss';
+import TopSection from './TopSection';
 
 export default function Mobile(){
 
@@ -8,9 +9,8 @@ export default function Mobile(){
             <i>Speaker</i>
             <b>Camera</b>
 
-            <div className={styles.topsection}>
-                <p className={styles.artistname}>Ariana Grande</p>
-            </div>
+            {/* the artist image and info section */}
+            <TopSection></TopSection>
 
             {/* <s>10:24</s>
 

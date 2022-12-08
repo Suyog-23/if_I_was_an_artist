@@ -9,10 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@chakra-ui/react": "^2.4.3",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "color-thief-react": "^2.1.0",
+    "colorthief": "^2.3.2",
+    "framer-motion": "^7.6.19",
     "next": "13.0.6",
     "next-auth": "^4.18.0",
+    "node-vibrant": "^3.2.1-alpha.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "use-color-thief": "^1.2.0"
   },
   "devDependencies": {
     "sass": "^1.56.1"
