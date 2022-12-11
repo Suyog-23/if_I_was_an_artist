@@ -1,21 +1,18 @@
 import imgSrc from "../../assets/images/ariana.jpeg";
 import styles from '../../styles/Mobile.module.scss';
-import * as Vibrant from 'node-vibrant';
-import { useEffect } from "react";
 
 export default function TopSection(){
 
     return(
         <>
-
             <div className={styles.bgopacity}>
                 <div className={styles.topsection}></div>
-                <p className={styles.artistname}>Ariana Grande</p>
+                <p className={styles.artistname}>ITZY</p>
             </div>
 
 
             <div className={styles.infosection}>
-                <p className={styles.numberoflisteners}>64,115,987 monthly listners</p>
+                <p className={styles.numberoflisteners}>6,115,987 monthly listners</p>
 
                 <div className={styles.utilityelements}>
                     <button className={styles.followbutton}>Following</button>

@@ -39,13 +39,13 @@
     }
     
 
-    &:before {
-      top: 0px;
-      width: 56%;
-      height: 30px;
-      background-color: #1f1f1f;
-      border-radius: 0px 0px 40px 40px;
-    }
+    // &:before {
+    //   top: 0px;
+    //   width: 56%;
+    //   height: 30px;
+    //   background-color: #1f1f1f;
+    //   border-radius: 0px 0px 40px 40px;
+    // }
     
     i,
     b,
@@ -125,9 +125,9 @@
       height: 275px;
       width: 100%;
       margin-top: 0;
-      background-image: url('https://i.scdn.co/image/ab6761610000e5ebcdce7620dc940db079bf4952');
+      background-image: url('https://i.scdn.co/image/ab6761610000e5eb8ec4207332def07fec21874d');
       background-size: cover;
-      opacity: 0.80;
+      opacity: 0.6;
       z-index: 0;
     }
 
@@ -137,15 +137,16 @@
       padding-top: 60%;
       padding-left: 10px;
       font-size: 50px;
-      font-weight: 900;
+      font-weight: bolder;
       letter-spacing: 0.2px !important;
+      filter: brightness(150%);
       // z-index: 1;
       // text-shadow: 1px 1px 1px #000;
     }
 
     .infosection{
       padding-left: 10px;
-      padding-top: 2px;
+      padding-top: 5px;
     }
 
     .numberoflisteners{
