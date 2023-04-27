@@ -6,7 +6,7 @@ import Mobile from './components/Mobile'
 export default function Home() {
   return (
     <div className={styles.container}>
-      <Mobile></Mobile>
+      <Mobile>Hello</Mobile>
     </div>
   )
 }
